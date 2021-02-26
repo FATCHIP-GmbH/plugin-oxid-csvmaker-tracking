@@ -1,0 +1,12 @@
+{
+    "name": "oxid-esales/market-connect-tracking-module",
+    "description": "Connects OXID eShop with the OXID Market Connect sales tracking.",
+    "type": "oxideshop-module",
+    "homepage": "https://oxid-esales.com",
+    "license": "GPL-3.0-or-later",
+    "extra": {
+        "oxideshop": {
+            "target-directory": "oe/market-connect-tracking"
+        }
+    }
+}
