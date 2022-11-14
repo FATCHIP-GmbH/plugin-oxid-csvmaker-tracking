@@ -9,14 +9,14 @@ $sMetadataVersion = '2.1';
  * Module information
  */
 $aModule = [
-    'id'          => 'oemct',
+    'id'          => 'fccsvmakertracking',
     'title'       => [
-        'de' => 'OXID Market Connect Tracking',
-        'en' => 'OXID Market Connect Tracking',
+        'de' => 'CSV Maker Tracking',
+        'en' => 'CSV Maker Tracking',
     ],
     'description' => [
-        'de' => 'Verbindet OXID eShop mit dem OXID Market Connect Umsatz-Tracking.',
-        'en' => 'Connects OXID eShop with the OXID Market Connect sales tracking.',
+        'de' => 'Verbindet OXID eShop mit dem CSV Maker Umsatz-Tracking.',
+        'en' => 'Connects OXID eShop with the CSV Maker sales tracking.',
     ],
     'version'     => '1.0.0',
     'author'      => 'OXID eSales AG',

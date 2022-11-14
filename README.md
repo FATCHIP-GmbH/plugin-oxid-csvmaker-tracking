@@ -1,9 +1,10 @@
-# OXID Market Connect Tracking
-Connects OXID eShop with the OXID Market Connect sales tracking.
+# CSV Maker Tracking
+Connects OXID eShop with the CSV Maker sales tracking.
 
 ## Installation
-- Navigate to your OXID eShop root directory, where your `composer.json` is located.
-- Run `composer require oxid-esales/market-connect-tracking-module`.
+- Download the .zip File that is attached to the Release
+- copy the downloaded files into your shop's module files under `source/modules/fc/fccsvmakertracking`
+- install the module by running the following command in the terminal of your shop instance: `vendor/bin/oe-console oe:module:install-configuration source/modules/fc/fccsvmakertracking`
 - Log in to your OXID eShop Administration Area.
-- Fill in the URL to your OXID Market Connect installation in the settings tab.
+- Fill in the URL to your CSV Maker installation in the settings tab.
 - Activate the module.
